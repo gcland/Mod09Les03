@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <title>Mod09Les03</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js.bootstrap.js"> s</script>
+</head>
+<body>
+    <section id="services">
+    <h2 class="display-4 m-2 bg-success p-2">Our Services
+        <small class="text-muted ms-2">Hand-crafted services serving you since <s>2024</s> 1950</small>
+    </h2>
+    <blockquote class="blockquote ms-2" style="text-align: center;">"The best services I have ever served. Seriously"</blockquote>
+    <p class="blockquote-footer ms-3" style="text-align: center;">Person in <cite title="Title">Services: Best of 2024</cite></p>
+    <p><a href="#" class="text-info ms-2">More information</a></p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-3 mt-2 bg-primary align-items-center">
+        <div class="col-md">
+            <img src="Images/Service1.jpg" style="width: auto; height:250px;" alt="Service1Img" class="mx-2">
+            <h5 class="m-2">Service 1</h5>
+            <p class="ms-2">Service 1: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+        <div class="col-md">
+            <img src="Images/Service2.jpg" style="width: auto; height:250px;" alt="Service2Img" class="mx-2">
+            <h5 class="m-2">Service 2</h5>
+            <p class="ms-2">Service 2: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+        <div class="col-md">
+            <img src="Images/Service3.jpg" style="width: auto; height:250px;" alt="Service3Img" class="mx-2">
+            <h5 class="m-2">Service 3</h5>
+            <p class="ms-2">Service 3: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+      </div>
+    </section>
+    <table class="table table-primary table-striped m-2">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Service X</th>
+            <th scope="col">Service Y</th>
+            <th scope="col">Service Z</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>000</td>
+            <td>999</td>
+            <td>888</td>
+          </tr>
+          <tr>
+            <th scope="row">!!!</th>
+            <td>!!!</td>
+            <td>$$$</td>
+            <td>&&&</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="m-2 mt-4">Image Grid</h2>
+      <div class="row row-cols-3 row-cols-md-2 m-2 g-4">
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md">
+            <img src="Images/CompanyFeature1.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    <p class="lead bg-danger text-muted mt-2 p-4" style="text-align: center;">Now we invite you to fill out our form for more information</p>
+</body>
+<footer>
+    <section id="form">
+    <h2 class="display-5 m-2">Form</h2>
+        <div class="row mx-2 bg-secondary p-2">
+            <div class="col-md-3">
+                <label for="formControlInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="formControlInput" placeholder="Jane Doe">
+            </div>
+            <div class="col-md-3 p-2">
+                <label for="formControlInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">  
+            </div>
+            <div class="col-md-3 p-2">
+                <!-- Assumed only one service could be selected here by user by design; otherwise checkbox would be used
+                here if more than one service could be selected -->
+                <h6>Select a Service:</h6>
+                <select class="form-select" aria-label="Default select">
+                    <option selected="">Select a service</option>
+                    <option value="1">Service 1</option>
+                    <option value="2">Service 2</option>
+                    <option value="3">Service 3</option>
+                  </select>
+            </div>
+            <div class="col-md-3 p-2">
+                <h6>Message Box:</h6>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                  </div>
+            </div>
+            <button type="button" class="btn btn-success mx-auto">Press here to service</button>
+      </div>
+    </section>
+    <h5 class="m-2" style="text-align: center;">Responsive Footer</h5>
+    <div class="row row-cols-1 row-cols-md-4 m-2" style="text-align: center;">
+        <div class="col-md"><p><a href="#" class="text-success">Success link</a></p></div>
+        <div class="col-md"><p><a href="#" class="text-warning">Warning link</a></p></div>
+        <div class="col-md"><p><a href="#" class="text-muted">Muted Link</a></p></div>
+        <div class="col-md"><p>Info nonlink here</p></div>
+      </div>
+    
+</footer>
